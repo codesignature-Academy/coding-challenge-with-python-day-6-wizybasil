@@ -16,3 +16,12 @@ If the user enters **5**, the output list should be:
 * basic arithmetic
 * data structures (lists)
 """
+# Square Numbers Calculator
+
+N = int(input("Enter a number: "))
+squares = []
+
+for i in range(1, N + 1):
+    squares.append(i * i)
+
+print("The squares are:", squares)
